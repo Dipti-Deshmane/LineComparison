@@ -26,11 +26,13 @@ public class LineComparison {
         System.out.println("Length of the line = " + Line1length);
         System.out.println("Length of the line = " + Line2length);
 
-        if(Line1length==Line2length){
+        if (Line1length == Line2length) {
             System.out.println("Line is equal");
+        } else if(Line1length > Line2length){
+            System.out.println("Line one is bigger");
         }
-        else {
-            System.out.println("Line is not equal");
+        else{
+            System.out.println("Line one is bigger");
         }
 
 
